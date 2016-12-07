@@ -334,4 +334,4 @@ if __name__ == "__main__":
     load_sound_paths(sound_paths_file)
 
     #Tk's mainloop
-root.mainloop()
+    root.mainloop()
