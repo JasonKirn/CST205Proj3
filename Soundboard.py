@@ -291,7 +291,7 @@ if __name__ == "__main__":
 
     # Add an help submenu for
     helpMenu = Menu(menu, tearoff=0)
-    helpMenu.add_command(label="Help", command=show_help_page)
+    helpMenu.add_command(label="Help", command=show_help_menu)
     # This is the command that puts all of the above in to a submenu of menu
     menu.add_cascade(label="Help", menu=helpMenu)
 
