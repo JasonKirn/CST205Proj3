@@ -283,7 +283,7 @@ if __name__ == "__main__":
     #This is the command that puts all of the above in to a submenu of menu
     menu.add_cascade(label="File", menu=fileMenu)
 
-    # Add an edit submenu for
+    #Add an edit submenu for
     editMenu = Menu(menu, tearoff=0)
     editMenu.add_command(label="Toggle Edit Mode", command=toggle_edit_mode)
     # This is the command that puts all of the above in to a submenu of menu
